@@ -22,7 +22,7 @@ start_date = '2010-01-01'
 end_date = '2020-09-01'
 symbol = 'MSFT'
 source = 'yahoo'
-stock_data = 'MSFT_data.pkl'
+stock_data = 'msft_data.pkl'
 
 try:
 	msft_data1 = pd.read_pickle(stock_data)
